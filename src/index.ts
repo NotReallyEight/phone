@@ -7,6 +7,7 @@ import {
 } from "./lib/utility";
 import translationsEn from "./translations/en";
 import translationsIt from "./translations/it";
+import translationsEs from "./translations/es"
 
 export interface PhoneInvalidResult {
   isValid: false;
@@ -184,4 +185,4 @@ export default function phone(
   return invalidResult;
 }
 
-export { phone, countryPhoneData, translationsEn, translationsIt };
+export { phone, countryPhoneData, translationsEn, translationsIt, translationsEs };
