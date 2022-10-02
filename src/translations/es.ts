@@ -226,4 +226,5 @@ export default {
   ZM: "Zambia",
   ZW: "Zimbabue",
   AX: "Áland",
+  SX: "San Martín",
 };
